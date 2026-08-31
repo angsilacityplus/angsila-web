@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เทศบาลเมืองอ่างศิลา | อำเภอเมืองชลบุรี จังหวัดชลบุรี</title>
+<meta name="description" content="เว็บไซต์อย่างเป็นทางการ เทศบาลเมืองอ่างศิลา จังหวัดชลบุรี ข่าวประชาสัมพันธ์ ประกาศจัดซื้อจัดจ้าง บริการประชาชน E-Service">
+
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <div><i class="fa-solid fa-phone"></i> 038-142-940 &nbsp;|&nbsp; <i class="fa-solid fa-clock"></i> จันทร์–ศุกร์ 08.30–16.30 น.</div>
+    <div class="topbar-r">
+      <span class="fsize">ขนาดตัวอักษร
+        <button data-fs="-1">ก-</button><button data-fs="0">ก</button><button data-fs="1">ก+</button>
+      </span>
+      <a href="mailto:saraban@angsila.go.th"><i class="fa-solid fa-envelope"></i> saraban@angsila.go.th</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <div class="logo">ตรา<br>เทศบาล</div>
+      <div>
+        <h1>เทศบาลเมืองอ่างศิลา</h1>
+        <p>อำเภอเมืองชลบุรี จังหวัดชลบุรี | Ang Sila Town Municipality</p>
+      </div>
+    </div>
+    <form class="header-search" id="searchForm">
+      <input type="text" placeholder="ค้นหาข้อมูลในเว็บไซต์...">
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <button class="burger" id="burger" aria-label="เปิดเมนู"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="container">
+    <ul id="menu">
+      <li><a href="#home"><i class="fa-solid fa-house"></i> หน้าแรก</a></li>
+
+      <li class="has-sub"><a href="#about">เกี่ยวกับเทศบาล <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#">ประวัติความเป็นมา</a></li>
+          <li><a href="#">วิสัยทัศน์ / พันธกิจ</a></li>
+          <li><a href="#">ตราสัญลักษณ์</a></li>
+          <li><a href="#">ข้อมูลสภาพทั่วไป</a></li>
+          <li><a href="#">อำนาจหน้าที่</a></li>
+          <li><a href="#">โครงสร้างองค์กร</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"><a href="#">ทำเนียบบุคลากร <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#">คณะผู้บริหาร</a></li>
+          <li><a href="#">สมาชิกสภาเทศบาล</a></li>
+          <li><a href="#">หัวหน้าส่วนราชการ</a></li>
+          <li><a href="#">สำนักปลัดเทศบาล</a></li>
+          <li><a href="#">กองคลัง / กองช่าง</a></li>
+          <li><a href="#">กองสาธารณสุขฯ / กองการศึกษา</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"><a href="#news">ข่าวสาร <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#news">ข่าวประชาสัมพันธ์</a></li>
+          <li><a href="#news">ข่าวจัดซื้อจัดจ้าง</a></li>
+          <li><a href="#">ประกาศรับสมัครงาน</a></li>
+          <li><a href="#news">ภาพกิจกรรม</a></li>
+          <li><a href="#">วารสาร / จดหมายข่าว</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"><a href="#">แผน &amp; งบประมาณ <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#">แผนพัฒนาท้องถิ่น</a></li>
+          <li><a href="#">เทศบัญญัติงบประมาณรายจ่าย</a></li>
+          <li><a href="#">แผนการดำเนินงานประจำปี</a></li>
+          <li><a href="#">รายงานผลการดำเนินงาน</a></li>
+          <li><a href="#">รายงานการเงินประจำปี</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"><a href="#service">บริการประชาชน <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#">คู่มือสำหรับประชาชน</a></li>
+          <li><a href="#">E-Service ยื่นคำร้องออนไลน์</a></li>
+          <li><a href="#">ชำระภาษีออนไลน์</a></li>
+          <li><a href="#contact">แจ้งเรื่องร้องเรียน–ร้องทุกข์</a></li>
+          <li><a href="#">แจ้งเรื่องทุจริตประพฤติมิชอบ</a></li>
+          <li><a href="#">ดาวน์โหลดแบบฟอร์ม</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub"><a href="#">ITA / คุณธรรม <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="sub">
+          <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
+          <li><a href="#">มาตรการส่งเสริมคุณธรรม</a></li>
+          <li><a href="#">นโยบาย No Gift Policy</a></li>
+          <li><a href="#">ผลการประเมิน ITA</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#travel">แหล่งท่องเที่ยว</a></li>
+      <li><a href="#contact">ติดต่อเรา</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ HERO SLIDER ============ -->
+<section class="hero" id="home">
+  <div class="slide on" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600')">
+    <div class="slide-txt">
+      <h2>เทศบาลเมืองอ่างศิลา</h2>
+      <p>เมืองน่าอยู่ริมทะเลตะวันออก อนุรักษ์ภูมิปัญญาครกหิน สืบสานตลาดเก่าอ่างศิลา</p>
+      <a href="#about" class="btn btn-gold">รู้จักเทศบาล</a>
+      <a href="#service" class="btn btn-line">บริการออนไลน์</a>
+    </div>
+  </div>
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1600')">
+    <div class="slide-txt">
+      <h2>บริการประชาชนด้วยหัวใจ</h2>
+      <p>ยื่นคำร้อง ชำระภาษี แจ้งเรื่องร้องเรียน ได้ทุกที่ทุกเวลาผ่านระบบ E-Service</p>
+      <a href="#service" class="btn btn-gold">เข้าสู่ระบบ E-Service</a>
+    </div>
+  </div>
+  <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1533105079780-92b9be482077?w=1600')">
+    <div class="slide-txt">
+      <h2>โปร่งใส ตรวจสอบได้</h2>
+      <p>เปิดเผยข้อมูลงบประมาณ จัดซื้อจัดจ้าง และผลการดำเนินงานตามหลักธรรมาภิบาล</p>
+      <a href="#" class="btn btn-gold">ข้อมูลสาธารณะ (ITA)</a>
+    </div>
+  </div>
+  <div class="dots" id="dots">
+    <span class="on" data-go="0"></span><span data-go="1"></span><span data-go="2"></span>
+  </div>
+</section>
+
+<!-- ============ QUICK SERVICE ============ -->
+<div class="container quick" id="service">
+  <div class="quick-grid">
+    <a href="#" class="qitem"><i class="fa-solid fa-file-signature"></i><span>ยื่นคำร้องออนไลน์</span></a>
+    <a href="#" class="qitem"><i class="fa-solid fa-coins"></i><span>ชำระภาษีที่ดิน</span></a>
+    <a href="#contact" class="qitem"><i class="fa-solid fa-bullhorn"></i><span>ร้องเรียน–ร้องทุกข์</span></a>
+    <a href="#" class="qitem"><i class="fa-solid fa-truck-droplet"></i><span>ขอรับบริการน้ำ/ขยะ</span></a>
+    <a href="#" class="qitem"><i class="fa-solid fa-hand-holding-heart"></i><span>เบี้ยยังชีพผู้สูงอายุ</span></a>
+    <a href="#" class="qitem"><i class="fa-solid fa-file-arrow-down"></i><span>ดาวน์โหลดแบบฟอร์ม</span></a>
+  </div>
+</div>
+
+<!-- ============ MAYOR ============ -->
+<section class="sec mayor" id="about">
+  <div class="container mayor-wrap">
+    <div class="mayor-card">
+      <div class="ph"><i class="fa-solid fa-user-tie"></i></div>
+      <h4>นายกเทศมนตรีเมืองอ่างศิลา</h4>
+      <p>ผู้บริหารท้องถิ่น</p>
+      <a href="#contact">สายตรงนายกฯ <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="mayor-txt">
+      <span class="eyebrow">MESSAGE FROM THE MAYOR</span>
+      <h3>สารจากนายกเทศมนตรี</h3>
+      <p>เทศบาลเมืองอ่างศิลามุ่งมั่นพัฒนาท้องถิ่นให้เป็นเมืองน่าอยู่อย่างยั่งยืน ควบคู่กับการอนุรักษ์อัตลักษณ์ชุมชนชายทะเล ทั้งภูมิปัญญาการทำครกหินอ่างศิลา ตลาดเก่า และวิถีประมงพื้นบ้าน โดยยึดหลักการบริหารที่โปร่งใส ตรวจสอบได้ และให้ประชาชนมีส่วนร่วมในทุกขั้นตอน</p>
+      <div class="vision"><i class="fa-solid fa-quote-left"></i> วิสัยทัศน์ : “อ่างศิลาเมืองน่าอยู่ เชิดชูภูมิปัญญาท้องถิ่น สิ่งแวดล้อมดี เศรษฐกิจชุมชนเข้มแข็ง บริหารงานโปร่งใส ใส่ใจคุณภาพชีวิตประชาชน”</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS ============ -->
+<section class="sec" id="news">
+  <div class="container">
+    <div class="sec-head"><span>News &amp; Announcement</span><h2>ข่าวสารและกิจกรรม</h2></div>
+
+    <div class="tabs">
+      <button class="tab on" data-tab="0">ข่าวประชาสัมพันธ์</button>
+      <button class="tab" data-tab="1">จัดซื้อจัดจ้าง</button>
+      <button class="tab" data-tab="2">ภาพกิจกรรม</button>
+    </div>
+
+    <div class="pane on">
+      <div class="news-grid">
+        <article class="card"><div class="card-img"><span class="tag">ประชาสัมพันธ์</span><i class="fa-solid fa-newspaper"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 25 สิงหาคม 2569</div>
+          <h4>ขยายเวลาชำระภาษีที่ดินและสิ่งปลูกสร้าง ประจำปี 2569</h4>
+          <p>ผู้เสียภาษีสามารถยื่นชำระได้ ณ กองคลัง หรือผ่านระบบออนไลน์ ภายในวันที่ 30 กันยายน 2569</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">ประกาศ</span><i class="fa-solid fa-people-roof"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 20 สิงหาคม 2569</div>
+          <h4>เชิญร่วมประชาคมท้องถิ่นจัดทำแผนพัฒนา (พ.ศ.2570–2574)</h4>
+          <p>ขอเชิญประชาชนทุกชุมชนร่วมเสนอปัญหาและความต้องการ ณ อาคารอเนกประสงค์เทศบาล</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">สาธารณสุข</span><i class="fa-solid fa-mosquito-net"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 14 สิงหาคม 2569</div>
+          <h4>รณรงค์ป้องกันโรคไข้เลือดออกในเขตเทศบาล</h4>
+          <p>เจ้าหน้าที่กองสาธารณสุขลงพื้นที่พ่นหมอกควันและแจกทรายอะเบทครบทุกชุมชน</p></div></article>
+      </div>
+    </div>
+
+    <div class="pane">
+      <div class="news-grid">
+        <article class="card"><div class="card-img"><span class="tag">e-Bidding</span><i class="fa-solid fa-gavel"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 22 สิงหาคม 2569</div>
+          <h4>ประกวดราคาจ้างก่อสร้างถนน คสล. ซอยอ่างศิลา 12</h4>
+          <p>วงเงินงบประมาณ 4,850,000 บาท ยื่นข้อเสนอผ่านระบบ e-GP</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">ราคากลาง</span><i class="fa-solid fa-file-invoice-dollar"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 18 สิงหาคม 2569</div>
+          <h4>เผยแพร่ราคากลางจัดซื้อรถบรรทุกขยะแบบอัดท้าย</h4>
+          <p>ขนาด 6 ตัน 6 ล้อ จำนวน 1 คัน ตามเกณฑ์ราคากลางสำนักงบประมาณ</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">ผลจัดซื้อ</span><i class="fa-solid fa-clipboard-check"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 09 สิงหาคม 2569</div>
+          <h4>ประกาศผู้ชนะการเสนอราคาปรับปรุงภูมิทัศน์ชายหาด</h4>
+          <p>รายละเอียดตามเอกสารแนบท้ายประกาศเทศบาลเมืองอ่างศิลา</p></div></article>
+      </div>
+    </div>
+
+    <div class="pane">
+      <div class="news-grid">
+        <article class="card"><div class="card-img"><span class="tag">กิจกรรม</span><i class="fa-solid fa-camera-retro"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 12 สิงหาคม 2569</div>
+          <h4>กิจกรรมเฉลิมพระเกียรติและปลูกต้นไม้เฉลิมพระเกียรติ</h4>
+          <p>คณะผู้บริหาร พนักงาน และประชาชนร่วมกิจกรรมโดยพร้อมเพรียง</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">ชุมชน</span><i class="fa-solid fa-hands-holding-circle"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 05 สิงหาคม 2569</div>
+          <h4>อบรมส่งเสริมอาชีพงานหัตถกรรมครกหินอ่างศิลา</h4>
+          <p>ถ่ายทอดภูมิปัญญาสู่เยาวชนรุ่นใหม่ ต่อยอดเป็นสินค้า OTOP ประจำท้องถิ่น</p></div></article>
+
+        <article class="card"><div class="card-img"><span class="tag">สิ่งแวดล้อม</span><i class="fa-solid fa-recycle"></i></div>
+          <div class="card-body"><div class="date"><i class="fa-regular fa-calendar"></i> 28 กรกฎาคม 2569</div>
+          <h4>Big Cleaning Day เก็บขยะชายหาดอ่างศิลา</h4>
+          <p>ร่วมกับจิตอาสาและสถานศึกษาในพื้นที่ ฟื้นฟูทัศนียภาพชายทะเล</p></div></article>
+      </div>
+    </div>
+
+    <a href="#" class="btn more btn-gold">ดูข่าวทั้งหมด <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="sec stats">
+  <div class="container stat-grid">
+    <div class="stat"><i class="fa-solid fa-users"></i><h3 data-count="39000">0</h3><p>ประชากรในเขตเทศบาล</p></div>
+    <div class="stat"><i class="fa-solid fa-house-chimney"></i><h3 data-count="21000">0</h3><p>ครัวเรือน</p></div>
+    <div class="stat"><i class="fa-solid fa-map-location-dot"></i><h3 data-count="18">0</h3><p>ชุมชนในเขตพื้นที่</p></div>
+    <div class="stat"><i class="fa-solid fa-vector-square"></i><h3 data-count="15">0</h3><p>ตารางกิโลเมตร (โดยประมาณ)</p></div>
+  </div>
+</section>
+
+<!-- ============ TRAVEL ============ -->
+<section class="sec" id="travel">
+  <div class="container">
+    <div class="sec-head"><span>Travel &amp; Culture</span><h2>แหล่งท่องเที่ยวในเขตเทศบาล</h2></div>
+    <div class="travel-grid">
+      <div class="t-card"><i class="fa-solid fa-store"></i><div><h4>ตลาดอ่างศิลา</h4><p>ตลาดอาหารทะเลสดและของฝากชื่อดังริมทะเลชลบุรี</p></div></div>
+      <div class="t-card"><i class="fa-solid fa-mortar-pestle"></i><div><h4>ครกหินอ่างศิลา</h4><p>ภูมิปัญญางานหัตถกรรมหินแกรนิตอายุกว่าร้อยปี</p></div></div>
+      <div class="t-card"><i class="fa-solid fa-landmark"></i><div><h4>พระตำหนักมหาราช–วรรณคดี</h4><p>โบราณสถานสำคัญคู่เมืองอ่างศิลา</p></div></div>
+      <div class="t-card"><i class="fa-solid fa-fish"></i><div><h4>สะพานปลาอ่างศิลา</h4><p>ชมวิถีประมงพื้นบ้านและพระอาทิตย์ตกริมอ่าว</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUICK LINKS ============ -->
+<section class="sec ita">
+  <div class="container">
+    <div class="sec-head"><span>Quick Links</span><h2>ลิงก์และระบบสารสนเทศ</h2></div>
+    <div class="link-grid">
+      <a href="#" class="link-box"><i class="fa-solid fa-shield-halved"></i><b>ITA การประเมินคุณธรรมและความโปร่งใส</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-scale-balanced"></i><b>เทศบัญญัติและกฎหมายที่เกี่ยวข้อง</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-database"></i><b>ระบบ e-GP / e-LAAS</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-book-open"></i><b>ศูนย์ข้อมูลข่าวสารทางราชการ</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-triangle-exclamation"></i><b>ศูนย์ช่วยเหลือประชาชน 24 ชม.</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-graduation-cap"></i><b>โรงเรียนและศูนย์พัฒนาเด็กเล็ก</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-briefcase"></i><b>กองทุนหลักประกันสุขภาพท้องถิ่น</b></a>
+      <a href="#" class="link-box"><i class="fa-solid fa-square-poll-vertical"></i><b>แบบสำรวจความพึงพอใจ</b></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec contact" id="contact">
+  <div class="container">
+    <div class="sec-head"><span>Contact Us</span><h2>ติดต่อเทศบาล</h2></div>
+    <div class="contact-wrap">
+      <div class="info-box">
+        <h3>ข้อมูลการติดต่อ</h3>
+        <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><b>ที่ตั้งสำนักงาน</b><span>สำนักงานเทศบาลเมืองอ่างศิลา อำเภอเมืองชลบุรี จังหวัดชลบุรี 20000</span></div></div>
+        <div class="info-row"><i class="fa-solid fa-phone"></i><div><b>โทรศัพท์ / โทรสาร</b><span>038-142-940 ต่อ 101 สำนักปลัด, 102 กองคลัง</span></div></div>
+        <div class="info-row"><i class="fa-solid fa-envelope"></i><div><b>อีเมลสารบรรณกลาง</b><span>saraban@angsila.go.th</span></div></div>
+        <div class="info-row"><i class="fa-solid fa-clock"></i><div><b>เวลาทำการ</b><span>จันทร์–ศุกร์ 08.30–16.30 น. (เว้นวันหยุดราชการ)</span></div></div>
+        <div class="info-row"><i class="fa-solid fa-tower-broadcast"></i><div><b>สายด่วนงานป้องกันฯ</b><span>199 / ศูนย์รับแจ้งเหตุตลอด 24 ชั่วโมง</span></div></div>
+      </div>
+
+      <div class="info-box">
+        <h3>ส่งเรื่องถึงเทศบาล</h3>
+        <form id="contactForm">
+          <div class="form-g"><input type="text" placeholder="ชื่อ–นามสกุล" required></div>
+          <div class="form-g"><input type="tel" placeholder="เบอร์โทรศัพท์ติดต่อกลับ" required></div>
+          <div class="form-g">
+            <select required>
+              <option value="">เลือกประเภทเรื่อง</option>
+              <option>สอบถามข้อมูลทั่วไป</option>
+              <option>แจ้งเรื่องร้องเรียน–ร้องทุกข์</option>
+              <option>แจ้งซ่อมไฟฟ้าสาธารณะ / ถนน</option>
+              <option>ขอรับบริการจัดเก็บขยะ</option>
+            </select>
+          </div>
+          <div class="form-g"><textarea placeholder="รายละเอียดเรื่องที่ต้องการแจ้ง..." required></textarea></div>
+          <button type="submit" class="btn btn-gold"><i class="fa-solid fa-paper-plane"></i> ส่งข้อความ</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container f-grid">
+    <div>
+      <h4>เทศบาลเมืองอ่างศิลา</h4>
+      <p class="f-about">องค์กรปกครองส่วนท้องถิ่นที่มุ่งพัฒนาคุณภาพชีวิตประชาชน ควบคู่การอนุรักษ์อัตลักษณ์ชุมชนชายทะเลอ่างศิลา ด้วยการบริหารที่โปร่งใสและมีส่วนร่วม</p>
+      <div class="social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Line"><i class="fa-brands fa-line"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="RSS"><i class="fa-solid fa-rss"></i></a>
+      </div>
+    </div>
+    <div><h4>เมนูหลัก</h4><ul>
+      <li><a href="#about">เกี่ยวกับเทศบาล</a></li>
+      <li><a href="#">ทำเนียบบุคลากร</a></li>
+      <li><a href="#news">ข่าวประชาสัมพันธ์</a></li>
+      <li><a href="#">แผนและงบประมาณ</a></li>
+      <li><a href="#travel">แหล่งท่องเที่ยว</a></li>
+    </ul></div>
+    <div><h4>บริการออนไลน์</h4><ul>
+      <li><a href="#">ยื่นคำร้อง E-Service</a></li>
+      <li><a href="#">ชำระภาษีออนไลน์</a></li>
+      <li><a href="#contact">ร้องเรียน–ร้องทุกข์</a></li>
+      <li><a href="#">ดาวน์โหลดแบบฟอร์ม</a></li>
+      <li><a href="#">คู่มือประชาชน</a></li>
+    </ul></div>
+    <div><h4>ติดต่อเรา</h4><ul>
+      <li><i class="fa-solid fa-location-dot"></i> อ.เมืองชลบุรี จ.ชลบุรี 20000</li>
+      <li><i class="fa-solid fa-phone"></i> 038-142-940</li>
+      <li><i class="fa-solid fa-envelope"></i> saraban@angsila.go.th</li>
+      <li><i class="fa-solid fa-eye"></i> ผู้เข้าชมวันนี้ 1,248 ครั้ง</li>
+    </ul></div>
+  </div>
+  <div class="copy">© 2569 เทศบาลเมืองอ่างศิลา สงวนลิขสิทธิ์ | นโยบายคุ้มครองข้อมูลส่วนบุคคล (PDPA) | นโยบายคุกกี้</div>
+</footer>
+
+<button id="top" aria-label="กลับขึ้นด้านบน"><i class="fa-solid fa-chevron-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
